@@ -5,5 +5,7 @@ public class HelloWorld {
         byte a = 5;
         int b = a ;
         System.out.println(b);
+
+        
     }
 }

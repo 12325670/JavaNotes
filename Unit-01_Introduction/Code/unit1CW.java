@@ -4,7 +4,9 @@ public class unit1CW {
 
     public static void main(String[] args) {
 
-    // System.out.println("hello");
+    System.out.println("hello");
+    
+
 
 //     System.out.println("Enter value less than 10: ");
 //     Scanner var1 = new Scanner(System.in);

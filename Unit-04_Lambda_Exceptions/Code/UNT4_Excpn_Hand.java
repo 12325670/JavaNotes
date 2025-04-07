@@ -95,20 +95,60 @@ public class UNT4_Excpn_Hand {
 //                         }
 
 
+// public static void main(String[] args) {
+//     System.out.println("prgm bgns");
+//     try{
+//         System.out.println(50/0);
+//         }   
+//         catch(ArithmeticException e){
+//             try{
+//             System.out.println(15/0 );
+//             }
+// }
+
+// public static void main(String[] args) {
+//     System.out.println("before try catch");
+//     try{
+//         System.out.println("inside try block");
+//         System.out.println(50/10);
+//         System.out.println("after exception");
+//     }
+//     catch(ArithmeticException e){
+//         System.out.println("catch block");
+//         System.out.println("exception occurred");
+//     }
+//     System.out.println("after try catch");
+//     }
+
+// public static void main(String[] args) {
+//     System.out.println("before try catch");
+//     try{
+//         System.out.println("inside try block");
+//         System.out.println(50/10);
+//         System.out.println("after exception");
+//     }
+//     finally{
+//         System.out.println("finally block");
+//         System.out.println("deallocate resources");
+//     }
+//     System.out.println("after try catch");
+//     }
+
 public static void main(String[] args) {
-    System.out.println("prgm bgns");
+    System.out.println("before try catch");
     try{
+        System.out.println("inside try block");
         System.out.println(50/0);
-        }   
-        catch(ArithmeticException e){
-            try{
-            System.out.println(15/0 );
-            }
+        System.out.println("after exception");
+    }
+    catch(ArithmeticException e){
+        System.out.println("catch block");
+        System.out.println("exception occurred");
+    }
+    finally{
+        System.out.println("finally block");
+        System.out.println("deallocate resources");
+    }
 }
-
-
-
-
-
 
 }
